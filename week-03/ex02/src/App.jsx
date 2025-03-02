@@ -14,29 +14,29 @@ const App = () => {
           <a href="#">Ingredients</a>
           <a href="#">Occasions</a>
           <a href="#">About Us</a>
+          <button>Your Recipe Box</button>
         </nav>
       </header>
 
-      {/* Main Content */}
-      <div className="main-content">
-        {/* Filters */}
-        <div className="filters">
-          <h2>Filters</h2>
-          <h3>Type</h3>
-          <label><input type="checkbox" /> Grilled</label>
-          <label><input type="checkbox" /> Roasted</label>
-          <label><input type="checkbox" /> Baked</label>
+      {/* Filters */}
+      <div className="filters">
+        <h2>Filters</h2>
+        <h3>Type</h3>
+        <label><input type="checkbox" /> Grilled</label>
+        <label><input type="checkbox" /> Roasted</label>
+        <label><input type="checkbox" /> Baked</label>
 
-          <h3>Time</h3>
-          <input type="range" min="10" max="60" />
+        <h3>Time</h3>
+        <input type="range" min="10" max="60" />
 
-          <h3>Rating</h3>
-          <span>⭐⭐⭐⭐☆</span>
+        <h3>Rating</h3>
+        <span>⭐⭐⭐⭐☆</span>
 
-          <button className="apply-btn">Apply</button>
-        </div>
+        <button className="apply-btn">Apply</button>
+      </div>
 
-        {/* No Results */}
+      {/* No Results */}
+      <div className="content">
         <div className="no-results">
           <h2>Sorry, no results found</h2>
           <p>We have all your Independence Day sweets covered.</p>

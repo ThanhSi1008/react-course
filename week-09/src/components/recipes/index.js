@@ -6,3 +6,4 @@
  */
 
 export { default as FeaturedRecipe } from './FeaturedRecipe';
+export { default as SeasonalRecipes } from './SeasonalRecipes';

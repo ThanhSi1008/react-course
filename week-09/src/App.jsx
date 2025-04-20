@@ -1,5 +1,5 @@
 // src/App.jsx
-import { AppHeader } from './components/layout';
+import { AppHeader, SiteFooter } from './components/layout';
 import { COLORS } from './constants';
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
           <div className="col-md-6 offset-md-3">
             <div className="card">
               <div className="card-body">
-                <h5 className="card-title">Header đã được tạo thành công!</h5>
-                <p className="card-text">Đây là phần minh chứng cho việc tạo component Header.</p>
+                <h5 className="card-title">Header và Footer đã được tạo thành công!</h5>
+                <p className="card-text">Đây là phần minh chứng cho việc tạo component Header và Footer.</p>
                 <button className="btn btn-primary" style={{ backgroundColor: COLORS.primary }}>
                   Màu chủ đạo từ constants
                 </button>
@@ -22,6 +22,7 @@ function App() {
           </div>
         </div>
       </div>
+      <SiteFooter />
     </div>
   );
 }

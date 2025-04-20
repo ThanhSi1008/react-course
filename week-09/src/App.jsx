@@ -1,6 +1,6 @@
 // src/App.jsx
 import { AppHeader, SiteFooter } from './components/layout';
-import { FeaturedRecipe, SeasonalRecipes, VideoRecipes } from './components/recipes';
+import { FeaturedRecipe, SeasonalRecipes, VideoRecipes, CuratedRecipes } from './components/recipes';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <FeaturedRecipe />
       <SeasonalRecipes />
       <VideoRecipes />
+      <CuratedRecipes />
       <SiteFooter />
     </div>
   );

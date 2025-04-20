@@ -1,0 +1,8 @@
+// src/components/recipes/index.js
+/**
+ * File: index.js
+ * 
+ * File xuất các component recipe để dễ dàng import.
+ */
+
+export { default as FeaturedRecipe } from './FeaturedRecipe';

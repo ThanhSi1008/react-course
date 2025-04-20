@@ -1,3 +1,4 @@
+// src/components/common/RecipeCard.jsx
 /**
  * File: RecipeCard.jsx
  * 
@@ -47,7 +48,15 @@ const RecipeCard = ({ recipe, className = '' }) => {
           className="btn btn-outline-danger position-absolute top-0 end-0 m-2 p-1 rounded-circle"
           aria-label="Lưu công thức"
         >
-          <img src="/src/assets/tag-icon.png" alt="Tag icon" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path d="M2 2v13.5l5.5-3.5 5.5 3.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z" />
+          </svg>
         </button>
       </div>
     </div>

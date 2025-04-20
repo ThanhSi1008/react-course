@@ -1,3 +1,4 @@
+// src/constants/styles.js
 /**
  * File: styles.js
  * 
@@ -44,6 +45,16 @@ export const CARD_STYLES = {
     },
     large: {
       fontSize: '18px',
+    },
+  },
+  curatedRecipe: {
+    card: {
+      minHeight: '180px',
+    },
+    image: {
+      width: '130px',
+      height: '130px',
+      objectFit: 'cover',
     },
   },
 };
